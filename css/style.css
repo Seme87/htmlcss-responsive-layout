@@ -189,6 +189,12 @@ header{
     } 
 }
 
+@media screen and (min-width:992px) {
+    .benefits .col {
+        width: calc(100% / 3);
+    }
+}
+
  /* ----section Benefits------ */
 
 
@@ -213,15 +219,27 @@ header{
     height: 50%;
   }
 
-  .text-about-us{
+.text-about-us{
     height: 50%;
   }
 
 
-  @media screen and (min-width:768px) {
+ @media screen and (min-width:768px) {
     .about-us .col{
         width: 50%;
     }
   }
-  
+
+@media screen and (min-width:992px) {
+   .about-us .left{
+    width: 70%;
+   }
+
+   .about-us .right{
+    width: 30%;
+   }
+}
+
+
+
    /* ----section About-us------ */
