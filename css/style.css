@@ -49,7 +49,7 @@ header{
 ------------------*/
 /* 
 
-----hightlights------ */
+----section hightlights------ */
 
 .card-debug{
     background-color: var(--first-color-light);
@@ -71,3 +71,48 @@ header{
         width: calc((100% / 3 ) * 2);
     }
 }
+
+/* ----section hightlights------ */ 
+
+
+
+
+/* ----section strategic------ */
+
+.strategic .col{
+    width: 100%;
+    margin: .625rem 0;
+}
+
+.strategic{
+    background-color: var(--second-color);
+}
+
+@media screen and (min-width:768px) {
+   .strategic .col{
+    width: 50%;
+   }
+
+   .strategic .col:last-child{
+    align-self: flex-end;
+   }
+    
+}
+
+/* ----section strategic------ */
+
+
+
+
+/* ----section exper------ */
+
+.title-testimonial{
+    text-align: center;
+    padding: 1.25rem 0;
+}
+
+.title-testimonial h2{
+    padding: .625rem 0;
+
+}
+
