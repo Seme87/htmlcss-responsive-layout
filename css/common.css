@@ -1,6 +1,11 @@
 /*-----------------
        COMMON
 ------------------*/
+section{
+    padding: 1.25rem;
+}
+
+
 .container{
     max-width: 68.75rem;
     padding-left:1.25rem ;
@@ -8,6 +13,50 @@
     margin: auto;
 }
 
-.row{
+
+.list-inline{
+    display: flex;
+    list-style: none;
+}
+
+.list-inline li{
+    padding: 0 1.25rem ;
+}
+
+
+/*-----------------
+       COMMON
+------------------*/
+
+
+
+/*-----------------
+       FLEX
+------------------*/
+
+
+.flex{
     display: flex;
 }
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.625rem;
+    margin-right: -0.625rem;
+    
+}
+
+.col {
+    padding-left: .625rem;
+    padding-right: .625rem;
+}
+
+
+
