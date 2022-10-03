@@ -116,3 +116,17 @@ header{
 
 }
 
+.card-debug-2{
+    height: 100px;
+    background-color: var(--second-color);
+}
+
+.card-debug-2 img{
+    width: 50%;
+}
+
+.text-expert{
+    width: 50%;
+}
+
+
