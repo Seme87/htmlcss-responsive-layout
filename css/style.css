@@ -104,7 +104,7 @@ header{
 
 
 
-/* ----section exper------ */
+/* ----section expert------ */
 
 .expert .col{
     width: 100%;
@@ -122,6 +122,7 @@ header{
 }
 
 .card-debug-2{
+    border-radius: 1.25rem;
     height: 100px;
     background-color: var(--second-color);
 
@@ -149,3 +150,78 @@ header{
         width: 70%;
       }
  }
+
+
+ /* ----section expert------ */
+
+
+
+
+ /* ----section Benefits------ */
+
+ .benefits .col{
+    width: 100%;
+    margin: .625rem 0;
+ }
+
+ .benefits{
+    background-color: var(--second-color);
+    color: white;
+    text-align: center;
+ }
+
+ .card-debug-3{
+    padding: .625rem 0;
+    border-radius: 1.25rem;
+    color: black;
+    background-color: white;
+ }
+
+ 
+ .benefits h2{
+    padding: 1.875rem 0;
+ }
+
+
+@media screen and (min-width:768px) {
+    .benefits .col{
+        width: 50%;
+    } 
+}
+
+ /* ----section Benefits------ */
+
+
+
+
+
+  /* ----section About-us------ */
+  
+.about-us .col{
+    width: 100%;
+    margin: .625rem 0;
+
+  }
+
+
+.card-debug-4{
+    height: 200px;
+}
+
+
+.card-debug-4 .img{
+    height: 50%;
+  }
+
+  .text-about-us{
+    height: 50%;
+  }
+
+
+  @media screen and (min-width:768px) {
+    .about-us .col{
+        width: 50%;
+    }
+  }
+  
+   /* ----section About-us------ */
