@@ -37,14 +37,20 @@ header h1{
 }
 
 
-
-.main-nav{
-    display: none;
-
+.btn-header{
+    color: black;
+    background: white;
+    font-weight: 400;
+    padding: .3125rem.625rem;
 }
 
 
+.main-nav{
+    display: none;
+}
 
+
+/* ---desktop--- */
 @media screen and (min-width:992px) {
     .hamburger {
             display: none;
@@ -52,7 +58,6 @@ header h1{
 
     .main-nav{
         display: block;
-        
     }
     
 }
@@ -72,10 +77,48 @@ header h1{
 
 ----section hightlights------ */
 
-.card-debug{
+.card-hightlights{
     background-color: var(--first-color-light);
-    height:100px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
+
+
+.text-hightlights{
+    width: 100%;
+    margin: 1.875rem 0;
+    text-align: left;
+    
+}
+
+.text-hightlights p{
+    font-weight: bold;
+    padding: 1.25rem 0;
+    color: #5a6e7f;
+}
+
+.text-hightlights h2{
+    color: var(--first-color);
+}
+
+
+.img-hightligts{
+    align-self: flex-end;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.card-hightlights img{
+    max-width: 250px;
+    height: auto;
+    }
+
 
 .hightlights .col{
     width: 100%;
@@ -83,6 +126,39 @@ header h1{
     margin-top: 1.25rem;
 }
 
+
+.btn-hightlights{
+    font-family: 'PT Sans', sans-serif;
+    font-weight:600;
+    font-size: 16px;
+    border: none;
+    color: white;
+    padding: .3125rem 3.125rem;
+    border-radius: 1.25rem;
+    background-color: var(--first-color);
+}
+
+
+.icon-hightlights{
+    width: 100%;
+    text-align: center;
+    padding: 1.875rem 0;
+}
+
+
+.icon-hightlights i{
+    color: var(--first-color);
+    font-size: 4.375rem;
+}
+
+.icon-hightlights h2{
+    color: var(--first-color);
+    padding: 1.875rem 0;
+}
+
+
+
+/* ---tablet--- */
 @media screen and (min-width:768px) {
     .hightlights .col{
         width: calc(100% / 3);
@@ -90,6 +166,13 @@ header h1{
     
     .hightlights .col:first-child{
         width: calc((100% / 3 ) * 2);
+    }
+}
+
+/* ---desktop--- */
+@media screen and (min-width:992px) {
+    .card-hightlights{
+        flex-wrap: nowrap;
     }
 }
 

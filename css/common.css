@@ -11,6 +11,11 @@ font-family: 'PT Sans', sans-serif;
 }
 
 
+img{
+    max-width: 100%;
+}
+
+
 .container{
     max-width: 68.75rem;
     padding-left:1.25rem ;
@@ -21,11 +26,17 @@ font-family: 'PT Sans', sans-serif;
 
 .list-inline{
     display: flex;
+    align-items: center;
     list-style: none;
 }
 
 .list-inline li{
     padding: 0 1.25rem ;
+    
+}
+
+.card{
+    padding: .625rem ;
 }
 
 
@@ -42,6 +53,7 @@ font-family: 'PT Sans', sans-serif;
 
 .flex{
     display: flex;
+    align-items: center;
 }
 
 .justify-space-between {
@@ -63,5 +75,23 @@ font-family: 'PT Sans', sans-serif;
     padding-right: .625rem;
 }
 
+/*-----------------
+       FLEX
+------------------*/
 
 
+
+/*-----------------
+       BUTTON
+------------------*/
+ .btn{
+    font-family: 'PT Sans',sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    color: white;
+    padding: .3125rem 1.875rem;
+    border-radius: 1.25rem;
+    }
+
+       
