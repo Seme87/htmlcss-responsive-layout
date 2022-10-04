@@ -71,6 +71,7 @@ img{
 }
 
 .col {
+    /* background-color: red; */
     padding-left: .625rem;
     padding-right: .625rem;
 }

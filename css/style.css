@@ -82,9 +82,10 @@ header h1{
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     border-radius: 1.25rem;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
+    
 }
 
 
@@ -110,13 +111,15 @@ header h1{
     align-self: flex-end;
     width: 100%;
     text-align: center;
+    margin: -0.625rem 0;
     
 }
 
 
 .card-hightlights img{
-    max-width: 250px;
+    max-width: 200px;
     height: auto;
+    display: block;
     }
 
 
@@ -194,7 +197,44 @@ header h1{
     background-color: var(--second-color);
 }
 
-@media screen and (min-width:768px) {
+.text-planning-1{
+    color: white;
+    
+}
+
+.strategic img{
+    margin-bottom: 1.875rem;
+}
+
+.text-planning-1 p{
+    padding-top: 1.875rem;
+}
+
+.text-planning-1 h2{
+    font-size: 1.875rem;
+}
+
+.card-planning-2{
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card-planning-2 p{
+    padding: 1.25rem .4375rem;
+}
+
+.icon-arrow-down{
+    
+    height: 3.125rem;
+    width: 3.125rem;
+    border-radius: 50%;
+    color: black;
+    background-color: aqua;
+}
+
+
+@media screen and (min-width:922px) {
    .strategic .col{
     width: 50%;
    }
@@ -203,6 +243,9 @@ header h1{
     align-self: flex-end;
    }
     
+   .card-planning-2 img{
+    width: 50%;
+   }
 }
 
 /* ----section strategic------ */
