@@ -370,15 +370,42 @@ header h1{
     text-align: center;
  }
 
- .card-debug-3{
-    padding: .625rem 0;
+ .card-benifts{
+    text-align: left;
+    padding: 1.25rem 1.875rem;
     border-radius: 1.25rem;
     color: black;
     background-color: white;
  }
 
+.card-benifts h3{
+    padding: 1.25rem 0;
+    color: var(--second-color);
+}
+
+
+.card-benifts p{
+    color: #5a6e7f;
+    padding-bottom: 1.25rem;
+}
+
+
+.btn-benefits{
+    background-color: var(--second-color);
+    color: white;
+    padding: .625rem 2.5rem;
+}
+
+
+ .number{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--second-color);
+
+ }
  
  .benefits h2{
+    font-size: 1.5rem;
     padding: 1.875rem 0;
  }
 
