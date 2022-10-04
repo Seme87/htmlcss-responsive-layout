@@ -168,6 +168,11 @@ header h1{
 }
 
 
+.icon-hightlights p{
+    font-weight: bold;
+    color: #5a6e7f;
+}
+
 
 /* ---tablet--- */
 @media screen and (min-width:768px) {
@@ -229,6 +234,7 @@ header h1{
 }
 
 .card-planning-2 p{
+    font-style: italic;
     padding: 0 .4375rem;
     padding-top: 1.25rem;
 }
@@ -583,3 +589,5 @@ small{
     padding: .9375rem 4.375rem;
     color: var(--second-color);
 }
+
+/* ----section Get Starded------ */
