@@ -18,6 +18,7 @@
 header{
     position: sticky;
     top: 0;
+    z-index: 10;
     background-color: var(--first-color);
     padding: .9375rem 0 ;
     color: white;
@@ -437,24 +438,70 @@ header h1{
   }
 
 
-.card-debug-4{
-    height: 200px;
+.card-about-us {
+    padding: 1.25rem 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.img-about-us{
+    position: relative;
+    /* width: 100%; */
 }
 
 
-.card-debug-4 .img{
-    height: 50%;
-  }
+.icon-about-us{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 50px;
+    color: var(--second-color);
+}
 
 .text-about-us{
-    height: 50%;
-  }
+    width: 100%;
+}
+
+.text-about-us p{
+    padding: 1.25rem 0;
+    font-size: 1.5625rem;
+    font-weight: bold;
+    color: var(--second-color);
+}
+
+.img-about-us img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.left p:last-child{
+    padding: 1.25rem 0;
+}
+
+.left h2{
+    font-size: 2.5rem;
+    padding: 1.25rem 0;
+    color: var(--second-color);
+}
+
+
+
+.btn-about-us{
+    background-color: var(--second-color);
+    
+}
 
 
  @media screen and (min-width:768px) {
-    .about-us .col{
-        width: 50%;
+    .about-us .left{
+        width: 60%;
     }
+
+    .about-us .right{
+        width: 40%;
+    }
+
   }
 
 @media screen and (min-width:992px) {
