@@ -16,14 +16,34 @@
 ------------------*/
 
 header{
+    position: sticky;
+    top: 0;
     background-color: var(--first-color);
-    padding: 1.25rem 0 ;
+    padding: .9375rem 0 ;
     color: white;
+    
 }
+
+header h1{
+    font-size:2.5rem ;
+}
+
+
+.hamburger{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 1.875rem;
+}
+
+
 
 .main-nav{
     display: none;
+
 }
+
+
 
 @media screen and (min-width:992px) {
     .hamburger {
@@ -32,6 +52,7 @@ header{
 
     .main-nav{
         display: block;
+        
     }
     
 }
