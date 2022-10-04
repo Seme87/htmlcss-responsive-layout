@@ -20,9 +20,15 @@ header{
     top: 0;
     z-index: 10;
     background-color: var(--first-color);
-    padding: .9375rem 0 ;
+    padding: .625rem 0 ;
     color: white;
     
+}
+
+
+.logo img{
+    width:3.75rem;
+    height: auto;
 }
 
 header h1{
@@ -267,7 +273,6 @@ header h1{
 
 
 
-
 /* ----section expert------ */
 
 .expert .col{
@@ -353,12 +358,12 @@ header h1{
  }
 
 
- /* ----section expert------ */
+/* ----section expert------ */
 
 
 
 
- /* ----section Benefits------ */
+/* ----section Benefits------ */
 
  .benefits .col{
     width: 100%;
@@ -423,13 +428,13 @@ header h1{
     }
 }
 
- /* ----section Benefits------ */
+/* ----section Benefits------ */
 
 
 
 
 
-  /* ----section About-us------ */
+/* ----section About-us------ */
   
 .about-us .col{
     width: 100%;
@@ -514,6 +519,57 @@ header h1{
    }
 }
 
+/* ----section About-us------ */
 
 
-   /* ----section About-us------ */
+
+
+/* ----section Get Starded------ */
+
+
+.get-started{
+    text-align: center;
+    background-color: var(--second-color);
+}
+
+.card-get-started{
+    padding: 2.5rem 0;
+}
+
+small{
+    font-size: .625rem;
+    display: block;
+    color: #c4c1ef;
+    padding: 1.25rem 0;
+}
+
+.get-started h4{
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.get-started h2{
+    color: white;
+    padding: 1.25rem 0;
+
+}
+
+.free{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #fdc15f;
+}
+
+
+.get-started p{
+    color: #c4c1ef;
+    padding: 1.25rem 0;
+}
+
+
+.btn-get-started{
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: .9375rem 4.375rem;
+    color: var(--second-color);
+}
