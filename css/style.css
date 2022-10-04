@@ -255,8 +255,8 @@ header h1{
 
 
 
-
-@media screen and (min-width:922px) {
+/* ---desktop--- */
+@media screen and (min-width:992px) {
    .strategic .col{
     width: 50%;
    }
@@ -340,7 +340,7 @@ header h1{
 
 
 
-
+/* ---tablet--- */
 @media screen and (min-width:768px) {
       .card-expert{
         text-align: left;
@@ -417,12 +417,16 @@ header h1{
  }
 
 
+
+/* ---tablet--- */
 @media screen and (min-width:768px) {
     .benefits .col{
         width: 50%;
     } 
 }
 
+
+/* ---desktop--- */
 @media screen and (min-width:992px) {
     .benefits .col {
         width: calc(100% / 3);
@@ -499,6 +503,8 @@ header h1{
 }
 
 
+
+/* ---Tablet--- */
  @media screen and (min-width:768px) {
     .about-us .left{
         width: 60%;
@@ -510,6 +516,9 @@ header h1{
 
   }
 
+
+
+/* ---desktop--- */
 @media screen and (min-width:992px) {
    .about-us .left{
     width: 70%;
